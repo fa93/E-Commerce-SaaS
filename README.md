@@ -22,21 +22,9 @@ A SaaS project that allows small merchants to create a minimalistic and simplist
 
 4) Now, Update the migrations by running the following command on ``` Package Manager Console ```
 ```bash
-  dotnet ef database update --project  --context DseDbContext
+  dotnet ef database update --project Shoppers.Web --context StorageDbContext
 ```
-⚠️ Must install ` Microsoft Visual Studio `, ` Microsoft SQL Server` and `SQL Server Management Studio` on your device
-
-## Environment Setup
-
-To run this project as Background Service, you will need to do the following  Steps
-
-`# Publish the worker service project`
-
-`# Install .exe file `
-
-`# Open the Service app to see the service`
-
-`# Start the service`
+⚠️ Must install ` Microsoft Visual Studio `, ` Microsoft SQL Server` and `SQL Server Management Studio` on your Mechine
 
 
 ## Tech Stack
@@ -45,11 +33,11 @@ To run this project as Background Service, you will need to do the following  St
 
 **Server:**  Microsoft SQL Server
 
-**Web Scrapper:** HTML Agility Pack 
-
 **Logger:** Serilog
 
 **Dependency Injection:** Autofac
+
+**Others:** MailKit (Email Framework)
 
 **Design Patterns:** Repository & Unit of Work
 
