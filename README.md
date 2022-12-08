@@ -2,14 +2,14 @@
 
 A SaaS project that allows small merchants to create a minimalistic and simplistic store quickly. The store creation and management process are easy and quick.
 
-##Demo
+## Demo
 <img width="907" alt="shopperDemo" src="https://user-images.githubusercontent.com/61489549/206221106-4bb8b585-9962-467b-8f12-62d9efdebc26.PNG">
 
 ## Installation
 
 1) Clone the project
 ```bash
-  https://github.com/fa93/StockDataScraper.git
+  https://github.com/fa93/E-Commerce-SaaS.git
 ```
 2) Run the file with extension ` .Sln ` on Visual Studio
 
@@ -22,7 +22,7 @@ A SaaS project that allows small merchants to create a minimalistic and simplist
 
 4) Now, Update the migrations by running the following command on ``` Package Manager Console ```
 ```bash
-  dotnet ef database update --project DataScraper.Service --context DseDbContext
+  dotnet ef database update --project  --context DseDbContext
 ```
 ⚠️ Must install ` Microsoft Visual Studio `, ` Microsoft SQL Server` and `SQL Server Management Studio` on your device
 
