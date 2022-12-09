@@ -26,6 +26,12 @@ A SaaS project that allows small merchants to create a minimalistic and simplist
 ```
 ⚠️ Must install ` Microsoft Visual Studio `, ` Microsoft SQL Server` and `SQL Server Management Studio` on your Mechine
 
+## Features
+- Create Store and setup
+- Social media accounts Login
+-	Products and categories
+-	Inventory
+- Role based authorization and authentication
 
 ## Tech Stack
 
